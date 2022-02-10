@@ -7,6 +7,9 @@ namespace console_programlama
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            System.Console.WriteLine("İsiminizi yazınız :");
+            string Name = Console.ReadLine();
+            System.Console.WriteLine($"İsminiz : {Name}");
         }
     }
 }
