@@ -44,6 +44,8 @@ namespace hatayonetimi
                 System.Console.WriteLine("Çok küçük yada büyük bir değer girdiniz.");
                 System.Console.WriteLine(ex);
             }
+
+
         }
     }
 }
