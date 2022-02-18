@@ -38,4 +38,6 @@ namespace enumlar
             CokSıcak = 39
         }
     }
+
+
 }
