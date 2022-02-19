@@ -141,7 +141,7 @@ namespace Proje1_ConsoleTelefonRehberi
                         System.Console.WriteLine("Numara için    (3): ");
 
                         string userChooses = Console.ReadLine();
-                        Person p = new();
+                        Person p = new(result.Name, result.SurName, result.Number);
                         foreach (var item in userChooses)
                         {
                             if (item == '1')
