@@ -195,7 +195,7 @@ namespace Proje2_ToDoUygulamasi
                             System.Console.WriteLine("Çalışan idleri");
                             EmployeeListPrint();
                             string id = Console.ReadLine();
-                            // resultTodo.Employee.Id = Console.ReadLine();
+
                             if (CheckUserId(id))
                             {
                                 resultTodo.Employee.Id = id;
@@ -215,21 +215,6 @@ namespace Proje2_ToDoUygulamasi
                     flag = false;
                 }
 
-                // if (resultTodo != null)
-                // {
-
-                //     cardList.Remove(resultTodo);
-                //     flag = false;
-                // }
-                // else
-                // {
-                //     System.Console.WriteLine("Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız. ");
-                //     System.Console.WriteLine("* Silmeyi sonlandırmak için : (1) ");
-                //     System.Console.WriteLine("* Yeniden denemek için : (2)");
-                //     string userInputt = Console.ReadLine();
-                //     if (userInputt == "1")
-                //         flag = false;
-                // }
             }
         }
 
@@ -243,7 +228,7 @@ namespace Proje2_ToDoUygulamasi
 
         private bool CheckUserId(string id)
         {
-            string Ids = "";
+
             foreach (var item in Employee.employee)
             {
                 if (id == item.Id) return true;
