@@ -15,4 +15,4 @@
 ![Search](images/search.png)
 
 ## Listeleme Ekranı
-![Güncelleme](images\getList.png)
+![Güncelleme](images/getList.png)
