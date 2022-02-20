@@ -1,9 +1,9 @@
 # Console Todo Uygulaması  
 
 ## Menu
-![Ekle](images/menu.png.png)
+![Ekle](images/menu.png)
 ## Listleme
-![Ekle](images/listele.png.png)
+![Ekle](images/listele.png)
 ## Ekleme
-![Ekle](images/ekle.png.png)
+![Ekle](images/ekle.png)
 
